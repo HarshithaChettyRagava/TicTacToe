@@ -1,0 +1,115 @@
+* {  
+  margin: 0px;
+  padding: 0px;
+  color: orange;
+}
+
+html {
+  display: block;
+}
+
+body {
+  background-image: url("rename.jpg");
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header, footer, aside{
+  background-color: lightgrey;
+}
+
+.container-fluid{
+  background-color: orange;
+  width: 100%;
+}
+
+h1{
+background-color: black;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  background-color: #fff;
+  color: #444;
+  padding: 1em;
+}
+
+aside{
+  background-color: black;
+}
+
+section {
+  color: #fff;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 0.5em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.box {
+  background-color: black;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 0.5em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+ol, ul {
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+li {
+   text-align: left;
+   font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+a.navbar-brand {
+  color: #fff !important;
+  margin-right: 0%;
+}
+
+a.nav-link {
+  color: #fff !important;
+}
+.navbar-expand-lg .navbar-nav{
+  padding: 0;
+}
+header {
+  margin-top: 61px;
+}
+
+div#winnerDisplay {
+  background-color:black;
+  width: 30%;
+  margin: auto;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  border: 1px ridge black;;
+  border-radius: 20px;
+}
+.playbutton {
+  width: 90px;
+  margin-left:45%;
+}
+
+#play{
+  background-color: black !important;
+  color:orange;
+  font-size: 20px;
+}
